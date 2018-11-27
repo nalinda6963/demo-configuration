@@ -19,7 +19,7 @@ spring:
   
 test: test_git_TEST
 
---
+---
 spring:
   profiles: QA
   
