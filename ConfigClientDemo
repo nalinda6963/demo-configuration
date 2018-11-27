@@ -1,0 +1,11 @@
+server:
+  port: 8010
+
+foo: bar_git_Default
+
+----------------------------------
+spring:
+  profiles: DEV
+  
+    test: test_git_DEV
+----------------------------------
