@@ -4,8 +4,8 @@
 foo: bar_git_Default
 
 # ----------------------------------
-spring:
-  profiles: DEV
+# spring:
+#   profiles: DEV
   
-    test: test_git_DEV
+#     test: test_git_DEV
 # ----------------------------------
