@@ -7,9 +7,22 @@ spring:
 
 foo: bar_git_Default
 
-# ----------------------------------
+---
 spring:
   profiles: DEV
   
 test: test_git_DEV
-# ----------------------------------
+
+---
+spring:
+  profiles: TEST
+  
+test: test_git_TEST
+
+--
+spring:
+  profiles: QA
+  
+test: test_git_QA
+
+
