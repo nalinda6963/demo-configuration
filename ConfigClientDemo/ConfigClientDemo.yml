@@ -7,6 +7,8 @@ spring:
 
 foo: bar_git_Default
 
+test: test_git_Default
+
 ---
 spring:
   profiles: DEV
